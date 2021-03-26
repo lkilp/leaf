@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "./static/css/main.a306b120.chunk.css",
+    "main.js": "./static/js/main.a8707d79.chunk.js",
+    "main.js.map": "./static/js/main.a8707d79.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.7481c7a5.js",
+    "runtime-main.js.map": "./static/js/runtime-main.7481c7a5.js.map",
+    "static/js/2.bd9d63de.chunk.js": "./static/js/2.bd9d63de.chunk.js",
+    "static/js/2.bd9d63de.chunk.js.map": "./static/js/2.bd9d63de.chunk.js.map",
+    "static/js/3.7229a0b0.chunk.js": "./static/js/3.7229a0b0.chunk.js",
+    "static/js/3.7229a0b0.chunk.js.map": "./static/js/3.7229a0b0.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.a306b120.chunk.css.map": "./static/css/main.a306b120.chunk.css.map",
+    "static/js/2.bd9d63de.chunk.js.LICENSE.txt": "./static/js/2.bd9d63de.chunk.js.LICENSE.txt",
+    "static/media/ProductBox.scss": "./static/media/toys-pexels-kaboompics-com-6069.d6412d88.jpg",
+    "static/media/DreamPage.scss": "./static/media/dream-pexels-karyme-frança-1535907.3ace0b8b.jpg",
+    "static/media/employee-1-pexels-daria-shevtsova-709790.ade6cbea.jpg": "./static/media/employee-1-pexels-daria-shevtsova-709790.ade6cbea.jpg",
+    "static/media/employee-2-pexels-daria-shevtsova-1250426.b98eccbe.jpg": "./static/media/employee-2-pexels-daria-shevtsova-1250426.b98eccbe.jpg",
+    "static/media/Footer.scss": "./static/media/forest-pexels-veeterzy-38136.494672fb.jpg",
+    "static/media/Header.scss": "./static/media/leaf-pexels-sohail-na-807598.eafc9592.jpg",
+    "static/media/plant-pexels-alena-koval-886521.72b6ed06.jpg": "./static/media/plant-pexels-alena-koval-886521.72b6ed06.jpg",
+    "static/media/woman-pexels-gary-barnes-6231585.5759b2ec.jpg": "./static/media/woman-pexels-gary-barnes-6231585.5759b2ec.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7481c7a5.js",
+    "static/js/2.bd9d63de.chunk.js",
+    "static/css/main.a306b120.chunk.css",
+    "static/js/main.a8707d79.chunk.js"
+  ]
+}
