@@ -1,0 +1,77 @@
+.DreamPage {
+    .dream {
+        background-image: url('../assets/pictures/dream-pexels-karyme-frança-1535907.jpg');
+        background-size: contain;
+        width: 100%;
+        height: 65vw;
+    }
+
+    .leaf {
+        height: 60px;
+        position: fixed;
+        left: 20px;
+        top: 20px;
+        animation: rotate 5s infinite ease-in-out;
+        animation-direction: alternate;
+        transform-origin: top left;
+    }
+
+    section {  
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+        font-size: 1.2rem;
+        line-height: 1.6;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 3vw;
+        
+        &>div {
+            text-align:justify;
+            padding: 0vw 3vw;
+            color: var(--darkGreen);
+        }
+    }
+
+    .imageConatiner {
+        background-color: rgba(var(--middleGreen-rgb), 0.5);
+        padding: 5vw;
+        display: flex;
+        justify-content: center;     
+    }
+
+    h2 {
+        font-family: 'Courgette', cursive, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+        text-align: center;
+        text-shadow: 1px 1px 2px var(--lightGreen);
+        color: var(--almostBlack);
+    }
+
+    .woman {
+        height: 350px;
+    }
+
+    .plant {
+        width: 100%;
+    }
+
+
+     
+    
+    @media screen and (max-width: 700px) {
+        section {
+            grid-template-columns: 1fr;
+            padding: 0 5px;
+        }
+
+        .woman {
+            height: 500px;
+        }
+
+        .plant {
+            width: 80%;
+        }
+    }
+}
