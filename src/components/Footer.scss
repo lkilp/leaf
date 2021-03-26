@@ -1,0 +1,98 @@
+.Footer {
+    height: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 5vw;
+
+    &::before {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.95;
+        z-index: -1;
+        background-image: url('../assets/pictures/forest-pexels-veeterzy-38136.jpg');
+        background-size: cover;
+    }
+
+
+    h2 {
+        color: white;
+        text-shadow: 2px 2px 4px var(--darkGreen);
+        font-weight: bold;
+        font-family: 'Courgette', cursive, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+        font-size: 3.5vw;
+    }
+
+    h3 {
+        margin-top: 0;
+        font-family: 'Courgette', cursive, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+        font-size: 2.5vw;
+    }
+    
+    .employees {
+    display: flex;
+    gap: 50px;
+    color: white;
+  }
+  
+  .employees > div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+    line-height: 1.6;
+  }
+
+  .employee-1, .employee-2 {
+      background: rgba(var(--darkGreen-rgb), 0.6);
+      padding: 5vw;
+  }
+  
+  
+  .employees img {
+    height: 40vw;
+  }
+
+  @media screen and (max-width: 600px) {
+      & {
+          height: 200vw;
+      }
+      .employees {
+          flex-direction: column;
+          gap: 1vw;
+      }
+
+      .employees img {
+          height: 60vw;
+      }
+
+      h2 {
+          font-size: 4.5vw;
+          
+      }
+
+      h3 {
+          font-size: 3.5vw;
+          margin: 0 0 1vw 0;
+      }
+
+      .employee-1, .employee-2 {
+          padding: 2vw 5vw;
+      }
+  }
+}
+
+
+
+  

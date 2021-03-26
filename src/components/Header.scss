@@ -1,0 +1,59 @@
+.Header {
+    background: url('../assets/pictures/leaf-pexels-sohail-na-807598.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    height: 60vw;
+
+    .leaf {
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        position: relative; 
+    }
+
+    img {
+        height: 60px;
+        position: absolute;
+        right: -80px;
+        top: 10px;
+        animation: rotate 5s infinite ease-in-out;
+        animation-direction: alternate;
+        transform-origin: top left;
+    }
+
+    img:hover {
+        cursor: pointer;
+    }
+
+   h1, h2 {
+      text-shadow: 2px 2px 3px var(--darkGreen); 
+   }
+    h1 {
+        color: white;
+        font-size: 58px;
+        margin-top: 0;
+        margin-bottom: 10px;    
+    }
+      
+    h2 {
+    color: white;
+    font-size: 28px;
+    font-family: 'Courgette', cursive, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    }
+
+    @keyframes rotate {
+        from {
+            opacity   : 0.85;
+            transform: translate(0deg);
+        }
+        to {
+            opacity   : 1;
+            transform: rotate(30deg);
+        }
+    }
+}

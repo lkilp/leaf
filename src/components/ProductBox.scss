@@ -1,0 +1,79 @@
+.ProductBox {
+    text-decoration: none;
+    background-size: 300px;
+    position: relative;
+    transition: background-size 0.5s ease-out;
+    background-position: center;
+
+    .out {
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .product-category {
+        font-family: 'Courgette', cursive, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+        color: white;
+        text-shadow: 1px 1px 3px var(--middleGreen);
+        font-size: 1.5rem;
+        position: relative;
+        padding: 3vw;
+        z-index: 1;
+    }
+
+    .filter {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+    
+        background: linear-gradient(
+            rgba(var(--darkGreen-rgb), 0) 0%,
+            rgba(var(--darkGreen-rgb), 0.8)); 
+    }
+    
+    &.box1 {
+        background-image: url('../assets/pictures/bathroom-pexels-nick-bondarev-4534121.jpg');
+    }
+
+    &.box2 {
+        background-image: url('../assets/pictures/cooking-pexels-toa-heftiba-şinca-1194433.jpg');
+    }
+
+    &.box3 {
+        background-image: url('../assets/pictures/laundry-pexels-karolina-grabowska-4495756.jpg');
+    }
+
+    &.box4 {
+        background-image: url('../assets/pictures/toys-pexels-kaboompics-com-6069.jpg');
+    }
+
+    &.box5 {
+        background-image: url('../assets/pictures/baby-pexels-henley-design-studio-1183942.jpg');
+    }
+
+    &.box6 {
+        background-image: url('../assets/pictures/dog-pexels-caio-61372.jpg');
+    }
+
+    &:hover {
+        cursor: pointer;
+        background-size: 320px;
+        .out {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 700px) {
+        .product-category {
+            font-size: 1.4rem;
+        }
+        
+    }
+}
