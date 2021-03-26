@@ -1,4 +1,18 @@
 .App {
+
+--almostBlack: rgb(18, 27, 38);
+--darkGreen: rgb(18, 38, 34);
+--middleGreen: rgb(31, 63, 39);
+--lightGreen: rgb(94, 140, 92);
+--limeGreen: rgb(151, 191, 122);
+
+--almostBlack-rgb: 18, 27, 38;
+--darkGreen-rgb: 18, 38, 34;
+--middleGreen-rgb: 31, 63, 39;
+--lightGreen-rgb: 94, 140, 92;
+--limeGreen-rgb: 151, 191, 122;
+
+
   text-align: center;
 }
 
